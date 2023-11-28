@@ -108,16 +108,6 @@ int main(void)
 	Fun_UART_Init(UART_1);
 	Fun_UART_Init(UART_2);
 
-
-	//Init Led Pin13 PortC
-	GPIO_Pin_Configure_t PIn13_CFG;
-	PIn13_CFG.GPIO_MODE = GPIO_MODE_OUTPUT_PP;
-	PIn13_CFG.GPIO_OUTPUT_SPEED=GPIO_SPEED_10M;
-	PIn13_CFG.GPIO_Pin_Number=GPIO_PIN_13;
-	MCAL_GPIO_Init(GPIOC,&PIn13_CFG);
-	MCAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, 0);
-
-
 	RSA_Calc_Init();
 
 	strcpy(Buf_Print_Trsm_Org_Msg ,"Transmit The Original Msg: ");
