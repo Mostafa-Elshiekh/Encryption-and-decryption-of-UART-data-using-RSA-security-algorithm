@@ -1,0 +1,7 @@
+Timer.c:22:6:Timer2_init	4	static
+Timer.c:31:6:dus	16	static
+Timer.c:37:6:dms	24	static
+Timer.c:49:6:Timer3_init	4	static
+Timer.c:76:6:Timer1_Init_PWM	16	static
+Timer.c:158:6:Timer1_PWM1_Set_Value	16	static
+Timer.c:167:6:Timer1_PWM2_Set_Value	16	static
